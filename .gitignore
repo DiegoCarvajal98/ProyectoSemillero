@@ -19,3 +19,6 @@
 *README.html
 *README_cache/
 #*README_files/
+
+#Prevent specific files
+Robot_design.mp4
