@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html class=" init-js lang-en js canvas canvastext cssanimations csstransitions video" lang="en"><head>
+	<meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Gears by maxon  | maxon group</title>
+	<meta name="robots" content="index,follow">
+	<link rel="stylesheet" type="text/css" media="all" href="Gearheads%20-%20Maxon_files/maxon-all.css">
+    <link rel="stylesheet" type="text/css" media="print" href="Gearheads%20-%20Maxon_files/print.css">
+<iframe src="javascript:void(0)" title="" style="width: 0px; height: 0px; border: 0px none; display: none;"></iframe><script type="text/javascript" async="" src="Gearheads%20-%20Maxon_files/analytics.js"></script><script async="" src="Gearheads%20-%20Maxon_files/gtm.js"></script><script src="Gearheads%20-%20Maxon_files/jquery-all.js"></script>
+<script src="Gearheads%20-%20Maxon_files/jquery-ui-1.js"></script>
+<script src="Gearheads%20-%20Maxon_files/maxon-all.js"></script>
+    <script>
+var fooprop = ".202101200844";
+
+function JsSource() {
+	this.create = function(js) {
+		return "/maxon/js/" + js + ".min" + fooprop + ".js";
+	};
+	this.image = function(img) {
+		return "/maxon/images/" + img;
+	}
+}
+
+var jsSource = new JsSource();
+
+function refreshCheckout() {
+	//var contentToReplace = $("form#CheckoutItemInfo\\.tmp");
+    var checkoutCheckContentToReplace = $("form#CheckoutCheck");
+    var checkoutItemInfoContentToReplace = $("form#CheckoutItemInfo\\.tmp");
+	if (checkoutCheckContentToReplace.length || checkoutItemInfoContentToReplace.length) {
+	    $.when($.ajax(location.href, {
+	        data: {
+	            'validate': 'true'
+            },
+            cache: true
+	    })).done(function (data) {
+            checkoutCheckContentToReplace.replaceWith($(checkoutCheckContentToReplace.selector, $(data)));
+            checkoutItemInfoContentToReplace.replaceWith($(checkoutItemInfoContentToReplace.selector, $(data)));
+		});
+	}
+}
+
+var sessionRefreshUrl = '/maxon/html/sessionRefresh.jsp';
+</script>
+
+<script>
+        function receiveMessage(event) {
+            if (event.origin.indexOf("www.maxongroup.com")<0) return;
+            if (event.data == "refreshLogin") refreshLogin();
+            if (typeof event.data == 'string' && event.data.indexOf("resizeAndCenter") > -1) {
+                $("#fancybox-content").height(parseInt(event.data.substring(15)));
+                /*console.log('height:', parseInt(event.data.substring(15)));*/
+                $.fancybox.center();refreshLogin();
+            }
+        }
+
+        if (window.addEventListener) {
+            window.addEventListener("message", receiveMessage, false);
+        } else {
+            if (window.attachEvent) {
+                window.attachEvent("onmessage", receiveMessage);
+            }
+        }
+    </script>
+
+    <meta name="CMS" content="persp=cmscockpit.perspective.catalog&amp;events=pageviewnavigation&amp;pnav-site=8796289664040&amp;pnav-catalog=8796355232345&amp;pnav-page=8801237697584">
+    <link rel="canonical" href="Gearheads%20-%20Maxon_files/Overview-gears.html">
+	
+	<script type="text/javascript">
+			dataLayer = [{'loggedin': 'false'}];
+		</script>
+		<!-- Google Tag Manager -->
+		<script type="application/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-T6D4FPJ');</script>
+		<!-- End Google Tag Manager -->
+	<meta name="keywords" content="">
+
+	<meta name="description" content="Precision spur- and planetary gearheads matched to maxon motors.">
+
+
+
+	
+
+	<script type="text/javascript">
+	function et_eC_Wrapper(a,b,c,d,e,f,g,h,i,j,k,l,m){}
+	function et_cc_wrapper(a,b,c,d,e,f,g,h,i,j,k,l,m){}
+	var etCommerce={attachEvent:function(){},sendEvent:function(){}};
+	var ET_Event = {link: function(){ },eventStart:function(){}, download: function (){}};
+</script>
+<!-- Copyright (c) 2000-2013 etracker GmbH. All rights reserved. -->
+	<!-- This material may not be reproduced, displayed, modified or distributed -->
+	<!-- without the express prior written permission of the copyright holder. -->
+	<!-- etracker tracklet 4.0 -->
+	<script type="text/javascript">
+		var et_pagename = "[com]#en#_d_ /content/Overview-gears *Overview-Page-Gears*";
+		var et_areas = "Gesamt/[com]/#en#/_d_ Products/1col/Product overview/Gears";
+		
+		var ET_Event = {link: function(){ },eventStart:function(){}, download: function (){}};
+		</script>
+	<script id="_etLoader" type="text/javascript" charset="UTF-8" data-secure-code="S59r6m" src="Gearheads%20-%20Maxon_files/e.js"></script><script async="" type="text/javascript" charset="UTF-8" id="_etCode" src="Gearheads%20-%20Maxon_files/t.js"></script>
+	<noscript>
+		<link rel="stylesheet" media="all" href="//www.etracker.de/cnt_css.php?et_pagename=%5bcom%5d%23en%23_d_+%2fcontent%2fOverview-gears+*Overview-Page-Gears*&amp;et_areas=Gesamt%2f%5bcom%5d%2f%23en%23%2f_d_+Products%2f1col%2fProduct+overview%2fGears&amp;et_areas="/>
+	</noscript>
+<!-- etracker tracklet 4.0 end -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<script type="text/javascript">
+    (function(doc) {
+
+		var addEvent = 'addEventListener',
+				type = 'gesturestart',
+				qsa = 'querySelectorAll',
+				meta = qsa in doc ? doc[qsa]('meta[name=viewport]') : [];
+
+		if(typeof window.orientation == 'undefined') {
+			//not a mobile
+			return true;
+		}
+		if(Math.abs(window.orientation) != 90) {
+			var scales = [0.7, 0.7];
+		} else {
+			var scales = [1, 1];
+		}
+		function fix() {
+			meta.content = 'width=device-width,minimum-scale=' + scales[0] + ',maximum-scale=' + scales[1];
+			doc.removeEventListener(type, fix, true);
+		}
+
+		if ((meta = meta[meta.length - 1]) && addEvent in doc) {
+			fix();
+			scales = [.25, 1.6];
+			doc[addEvent](type, fix, true);
+		}
+
+		$( window ).on( "orientationchange", function( event ) {
+			window.location.reload();
+		});
+
+	}(document));
+	</script>
+<link rel="shortcut icon" href="https://www.maxongroup.com/favicon.ico" type="image/x-icon">
+
+                          <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="XZ4V5-JYBTR-W5HBN-N7JX9-BMWCK",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"XZ4V5-JYBTR-W5HBN-N7JX9-BMWCK",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="xk7olqvydrxcayarzxba-f-652fafe9a-clientnsv4-s.akamaihd.net",i={"ak.v":"30","ak.cp":"1088952","ak.ai":parseInt("647807",10),"ak.ol":"0","ak.cr":53,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"e651539","ak.r":35138,"ak.a2":e,"ak.m":"b","ak.n":"essl","ak.bpcip":"186.190.229.0","ak.cport":50666,"ak.gh":"184.28.110.28","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1611779522","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==xnSpbOC8YTPQ/CDbx67a0FFl0i9ZlETaMY/Fx7Jh09wWG3fbqozODkE1J4UzLN/ACdDZl2eTbgC6z593vQ8m4ZkVeV9Jn9MZHPrl3Y9UqyLgnBHIY/7XVlf7ZqjLMp8KCART2hflMlzod436t9zR3OXXQHb94dVsp0qezGcQ0QfwVCoYbOsW2vzi2XeefGpSbBbfZN+JC8pfBPYH868lKWGfKua6Ajph0fTCKR5IqIuYODA9snY+OLm76MO3XC08tJzPeqFW4XIAq4NbCjTGTOV67MDeqRPI5Ki0S4JqMrovzEX0/vdSXmYcT9G81lGxtJHmxWgAKAokESfUWKhj33Af6maJtWQytQ3p5K0EkbJmTjBWd6Uk91hIOVu3YzOY06Q/KDxCoYCes3dBz3qaeaeRBXcAqzYnlpJu1JSzuVQ=","ak.pv":"3","ak.dpoabenc":""};if(""!==t)i["ak.ruds"]=t;var _={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))i["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:n,init:function(){if(!_.i){var a=BOOMR.subscribe;a("before_beacon",_.av,null,null),a("onbeacon",_.rv,null,null),_.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script><script type="text/javascript" src="Gearheads%20-%20Maxon_files/cntcc"></script></head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T6D4FPJ"
+					  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+<div class="cookie-bar visible" style="">
+			<div class="content easyClear">
+				<p>We use cookies to optimize the design of this website and 
+constantly enhance your experience. By continuing to use this website, 
+you are agreeing to the use of cookies. Further information is available
+ in our <a href="https://www.maxongroup.com/maxon/view/content/privacy" target="_self" btattached="true">data privacy notice</a>.</p>
+				<span class="btn"><span class="button">OK</span></span>
+			</div>
+		</div>
+	
+<div id="head">
+			<div id="logo">
+    <div id="innerLogo">
+	<a href="https://www.maxongroup.com/maxon/view/content/index"><img src="Gearheads%20-%20Maxon_files/logo.svg" alt="alt Maxon en"></a>
+	</div>
+</div><div id="navMainContainer" class="easyClear">
+				<ul class="level-1">
+<li class="active asdf menu-item">
+<span>
+<span>Products &amp; Shop</span>
+</span>
+<div class="flyout-neu">
+<ul class="navigation-flyout-slot level-2">
+<li class="group">
+<p class="header ">
+<a href="https://www.maxongroup.com/maxon/view/content/product-overview">Product overview</a>
+</p>
+<ul class="level-3">
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/systems">Mechatronic drive system</a>
+</li>
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/compact-drives">Compact drives</a>
+</li>
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/Overview-brushed-DC-motors">Brushed DC motors</a>
+</li>
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/Overview-brushless-DC-motors">Brushless DC motors</a>
+</li>
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/Overview-gears">Gears</a>
+</li>
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/Overview-sensors">Sensors</a>
+</li>
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/Overview-controls">Controls</a>
+</li>
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/Overview-accessories">Accessories</a>
+</li>
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/ceramic">Ceramic components</a>
+</li>
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/aquatic-solutions">Aquatic solutions</a>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="navigation-flyout-slot level-2">
+<li class="group">
+<p class="header ">
+<a href="https://www.maxongroup.com/maxon/view/content/applications">Application areas</a>
+</p>
+<ul class="level-3">
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/medical">Medical technology</a>
+</li>
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/aerospace">Aerospace</a>
+</li>
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/industrial">Industrial automation</a>
+</li>
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/mobility">Mobility solutions</a>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="navigation-flyout-slot level-2">
+<li class="group no-sublinks">
+<p class="header ">
+<a href="https://www.maxongroup.com/maxon/view/catalog/">Online Shop</a>
+</p>
+</li>
+<li class="group no-sublinks">
+<p class="header ">
+<a href="https://www.maxongroup.com/maxon/view/msp/">Selection Program</a>
+</p>
+</li>
+<li class="group no-sublinks">
+<p class="header ">
+<a href="https://www.maxongroup.com/maxon/view/content/catalog_request">Catalog</a>
+</p>
+</li>
+<li class="group no-sublinks">
+<p class="header ">
+<a href="https://www.maxongroup.com/maxon/view/content/maxon-Knowledge">Resources</a>
+</p>
+</li>
+</ul>
+<ul class="navigation-flyout-slot level-2 highlighted">
+<li class="group">
+<p class="header configurator">
+<a href="https://www.maxongroup.com/maxon/view/catalog">Are you looking for product details?</a>
+</p>
+<ul class="level-3">
+<li>
+<a class="cta id-teaser__button" href="https://www.maxongroup.com/maxon/view/catalog">Visit online shop</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</li>
+<li class=" menu-item">
+<span>
+<span>Company</span>
+</span>
+<div class="flyout-neu">
+<ul class="navigation-flyout-slot level-2">
+<li class="group">
+<p class="header ">
+<a href="https://www.maxongroup.com/maxon/view/content/company">About maxon</a>
+</p>
+<ul class="level-3">
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/profile">Facts &amp; figures</a>
+</li>
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/research-development">Research &amp; development</a>
+</li>
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/production">Production</a>
+</li>
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/suppliers">Suppliers</a>
+</li>
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/quality">Quality</a>
+</li>
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/history">History</a>
+</li>
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/companytour">Plant tour</a>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="navigation-flyout-slot level-2">
+<li class="group">
+<p class="header ">
+<a href="https://www.maxongroup.com/maxon/view/content/news_overview">News</a>
+</p>
+<ul class="level-3">
+<li>
+<a href="https://www.maxongroup.com/maxon/view/overview/news">Media releases</a>
+</li>
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/fairs">Exhibitions</a>
+</li>
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/newsletter">Newsletter</a>
+</li>
+</ul>
+</li>
+</ul>
+<div class="navigation-flyout-slot"> </div>
+<ul class="navigation-flyout-slot level-2 highlighted">
+<li class="group">
+<p class="header question">
+<a href="https://www.maxongroup.com/maxon/view/content/driven">Driven Magazine</a>
+</p>
+<ul class="level-3">
+<li>
+<a class="cta id-teaser__button" href="https://www.maxongroup.com/maxon/view/content/driven">driven magazine</a>
+</li>
+<li>
+<a class="cta id-teaser__button" href="https://www.maxongroup.com/maxon/view/content/order-print">Order driven</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</li>
+<li class=" menu-item">
+<span>
+<span>Career</span>
+</span>
+<div class="flyout-neu">
+<ul class="navigation-flyout-slot level-2">
+<li class="group no-sublinks">
+<p class="header ">
+<a href="https://www.maxongroup.com/maxon/view/content/open-jobs">Jobs</a>
+</p>
+</li>
+</ul>
+<ul class="navigation-flyout-slot level-2">
+<li class="group">
+<p class="header ">
+<a href="https://www.maxongroup.com/maxon/view/content/career-page-life-at-maxon">Life at maxon</a>
+</p>
+<ul class="level-3">
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/career-page-what-we-offer">Your benefits</a>
+</li>
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/career-page-start-your-career">Start your career</a>
+</li>
+</ul>
+</li>
+</ul>
+<div class="navigation-flyout-slot"> </div>
+<ul class="navigation-flyout-slot level-2 highlighted">
+<li class="group">
+<p class="header question">
+<a href="https://www.linkedin.com/company/maxon1/">Connect with us</a>
+</p>
+<ul class="level-3">
+<li>
+<a class="cta id-teaser__button" href="https://www.linkedin.com/company/maxon1/">maxon on LinkedIn</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</li>
+<li class=" menu-item">
+<span>
+<span>Contact</span>
+</span>
+<div class="flyout-neu">
+<ul class="navigation-flyout-slot level-2">
+<li class="group no-sublinks">
+<p class="header ">
+<a href="https://www.maxongroup.com/maxon/view/content/contact">Your local contact</a>
+</p>
+</li>
+<li class="group no-sublinks">
+<p class="header ">
+<a href="https://www.maxongroup.com/maxon/view/content/contact_form">Contact form</a>
+</p>
+</li>
+</ul>
+<ul class="navigation-flyout-slot level-2">
+<li class="group no-sublinks">
+<p class="header ">
+<a href="https://www.maxongroup.com/maxon/view/content/media-contact">Media</a>
+</p>
+</li>
+</ul>
+<div class="navigation-flyout-slot"> </div>
+<ul class="navigation-flyout-slot level-2 highlighted">
+<li class="group">
+<p class="header contact">
+<a href="http://support.maxongroup.com/">Support</a>
+</p>
+<ul class="level-3">
+<li>
+<a class="cta id-teaser__button" href="http://support.maxongroup.com/">Support Center</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</li>
+</ul><div id="searchbar" class="js_searchbar slim">
+	<form action="/maxon/view/service_search" class="easyClear" id="searchbarSearchform">
+		<input type="button" onclick="submit()">
+		<input type="text" placeholder="Enter search term" class="searchfield" name="query" autocomplete="off">
+	</form>
+	<div id="suggest" style="display: none;">
+		<div class="col-left">
+			<button type="submit" class="botton button--prio-c" onclick="document.forms.searchbarSearchform.submit();"><span>Show all search results</span></button>
+		</div>
+
+		<div class="suggest-tabs">
+			<input id="suggest-products" type="radio" name="tabs" checked="checked">
+			<input id="suggest-contents" type="radio" name="tabs">
+
+			<nav>
+				<label for="suggest-products">Product suggestions</label>
+				<label for="suggest-contents">additional results</label>
+			</nav>
+
+			<div class="suggest-tabs-contents">
+				<ul class="suggest-products products js_products"></ul>
+				<ul class="suggest-contents content js_content"></ul>
+			</div>
+		</div>
+	</div>
+</div></div>
+
+			<div id="headMeta">
+				<div id="headMetaInner" class="easyClear">
+					<div class="alignBox">
+						<div id="naviMaxonWorldWide">
+	<h3>
+		<span>
+			<span class="currCountry">Switzerland</span>
+				</span>
+	</h3>
+
+	<div class="layer">
+		<div class="inner">
+			<div class="iLayer">
+				<div class="links">
+						<h4><span>Country Websites</span></h4>
+		<ul>
+			<li><a href="https://www.maxongroup.com/" data-location="230,62" target="_blank">Headquarters</a></li>
+			<li><a href="https://www.maxongroup.net.au/" data-location="440,200" target="_blank">Australia</a></li>
+			<li><a href="https://www.maxongroup.nl/" data-location="225,51" target="_blank">Benelux</a></li>
+			<li><a href="https://www.maxongroup.com.cn/" data-location="385,84" target="_blank">China</a></li>
+			<li><a href="https://www.maxongroup.de/" data-location="231,53" target="_blank">Germany</a></li>
+			<li><a href="https://www.maxongroup.fr/" data-location="218,55" target="_blank">France</a></li>
+			<li><a href="https://www.maxongroup.in/" data-location="340,120" target="_blank">India</a></li>
+			<li><a href="https://www.maxongroup.it/" data-location="237,65" target="_blank">Italia</a></li>
+			<li><a href="https://www.maxongroup.co.jp/" data-location="420,77" target="_blank">Japan</a></li>
+			<li><a href="https://www.maxongroup.co.kr/" data-location="405,74" target="_blank">Republic of Korea</a></li>
+			<li><a href="https://www.maxongroup.pt/" data-location="200,70" target="_blank">Portugal</a></li>
+			<li><a href="https://www.maxongroup.ch/" data-location="233,60" target="_blank">Switzerland</a></li>
+			<li><a href="https://www.maxongroup.es/" data-location="213,69" target="_blank">Spain</a></li>
+			<li><a href="https://www.maxongroup.com.tw/" data-location="399,101" target="_blank">Taiwan</a></li>
+			<li><a href="https://www.maxongroup.co.uk/" data-location="213,47" target="_blank">UK</a></li>
+			<li><a href="https://www.maxongroup.us/" data-location="77,69" target="_blank">USA</a></li>
+			</ul>
+	<hr>
+			<a href="https://www.maxongroup.com/maxon/view/content/contact" class="all-locations" target="_self">All locations</a>
+	</div>
+				</div>
+		</div>
+	</div>
+</div>
+<div id="navMyMaxon">
+    <h3><span>
+		<span>
+        Sign in my maxon</span></span></h3>
+
+    <div class="layer">
+        <div class="inner">
+            <div class="iLayer">
+                <form id="LoginInfo" action="/maxon/view/LoginController" method="post"><fieldset>
+                                <input type="text" placeholder="E-mail" name="email" autocomplete="username email">
+                                <input type="password" placeholder="Password" name="password" autocomplete="current-password" value="">
+                                        <input type="hidden" name="backURL" value="/maxon/view/content/Overview-gears">
+
+                                <input type="hidden" name="fromLoginTeaser" value="true">
+                                <button name="LoginController" type="submit" class="button button--prio-a" data-etrackerfunc="loginSuccess" data-etrackerattr="/view/content/Overview-gears,">
+                                               <span>
+                                                   LOG IN</span>
+                                </button>
+                            </fieldset>
+
+                            </form><ul>
+                            <li><a href="https://www.maxongroup.com/maxon/view/content/login?from=/view/content/Overview-gears">
+                                Register now</a></li>
+
+                            <li><a href="https://www.maxongroup.com/maxon/view/content/passwordRecovery" class="" target="_self">Forgot your password?</a>
+	</li>
+                                </ul>
+                    </div>
+        </div>
+    </div>
+
+</div>
+<div id="navCartInfo" class="teaserShoppingCart ">
+	
+	
+	<div id="jscript" style="display:none">
+		
+	</div>
+	<script type="text/javascript">
+		eval($("div#jscript").html());
+	</script>
+</div></div>
+				</div>
+			</div>
+		</div>
+
+		<div id="outerWrapper">
+		<div id="wrapper" class="cols-1">
+	<div id="content">
+		<section>
+    <div class="ppMod breadCrumb">
+      <div class="iPpMod">
+        <ul class="list easyClear">
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/index">
+<span>Home</span>
+</a>
+</li>
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/product-overview">
+<span>Products &amp; Shop</span>
+</a>
+</li>
+<li class="lastActiveOne">
+<a href="https://www.maxongroup.com/maxon/view/content/product-overview">
+<span>Product overview</span>
+</a>
+</li>
+<li>
+<a href="https://www.maxongroup.com/maxon/view/content/Overview-gears">
+<span>Gears</span>
+</a>
+</li>
+</ul></div>
+    </div>
+  </section>
+<div class="easyClear row">
+			<div class="cols col3of4">
+				<div class="easyClear row">
+								<div class="cols col3of4">
+						<section>
+    <div class="ppMod article article-rte">
+        <div class="iPpMod">
+			<h1>Gears</h1>
+			<div class="textContainer">
+					<p>Precision spur- and planetary gearheads matched to maxon motors.
+ Gears are advantageously adapted directly to the desired motors in the 
+delivery plant. The motor pinion is the input gearwheel for the first 
+stage and is rigidly affixed to the motor shaft.</p></div>
+			</div>
+    </div>
+</section>
+
+
+
+
+</div>
+							</div>
+						<div class="program-teaser ppMod teaser clearfix">
+		<div class="text-block right">
+			<span><strong>Planetary Gearheads (GP)</strong></span>
+			<p></p><p>Gearheads featuring high torques. High power in a compact design with torques up to 120 Nm.</p><p>&nbsp;</p><p>For product details &amp; specifications:</p><p></p>
+			<a class="button button--prio-a" href="https://www.maxongroup.com/maxon/view/category/gear?etcc_cu=onsite&amp;etcc_med_onsite=Product&amp;etcc_cmp_onsite=Planetary+Gearheads+(GP)&amp;etcc_plc=Overview-Page-Gears&amp;etcc_var=%5bcom%5d%23en%23_d_&amp;target=filter&amp;filterCategory=planetary">Online Shop</a>
+			</div>
+		<div class="image-block">
+				<img src="Gearheads%20-%20Maxon_files/GP16C.jpg" title="" alt="">
+			</div>
+		</div>
+	<div class="program-teaser ppMod teaser clearfix">
+		<div class="text-block right">
+			<span><strong>Spur Gearheads (GS)</strong></span>
+			<p></p><p>maxon spur gearheads run with low noise emissions and have high efficiency, with up to 2 Nm of torque.</p><p>&nbsp;</p><p>For product details &amp; specifications:</p><p></p>
+			<a class="button button--prio-a" href="https://www.maxongroup.com/maxon/view/category/gear?etcc_cu=onsite&amp;etcc_med_onsite=Product&amp;etcc_cmp_onsite=Spur+Gearheads+(GS)&amp;etcc_plc=Overview-Page-Gears&amp;etcc_var=%5bcom%5d%23en%23_d_&amp;target=filter&amp;filterCategory=spur">Online Shop</a>
+			</div>
+		<div class="image-block">
+				<img src="Gearheads%20-%20Maxon_files/GS16.jpg" title="" alt="">
+			</div>
+		</div>
+	<div class="program-teaser ppMod teaser clearfix">
+		<div class="text-block right">
+			<span><strong>GPX Planetary Gearheads</strong></span>
+			<p></p><p>maxon GPX gearheads are low-noise and low-backlash. Ideal for when high torques and speeds are needed.</p><p>&nbsp;</p><p>For product details &amp; specifications:</p><p></p>
+			<a class="button button--prio-a" href="https://www.maxongroup.com/maxon/view/category/gear?etcc_cu=onsite&amp;etcc_med_onsite=Product&amp;etcc_cmp_onsite=GPX+Planetary+Gearheads&amp;etcc_plc=Overview-Page-Gears&amp;etcc_var=%5bcom%5d%23en%23_d_&amp;target=filter&amp;filterCategory=planetary&amp;q=GPX">Online Shop</a>
+			</div>
+		<div class="image-block">
+				<img src="Gearheads%20-%20Maxon_files/GPX32.jpg" title="" alt="">
+			</div>
+		</div>
+	<div class="program-teaser ppMod teaser clearfix">
+		<div class="text-block right">
+			<span><strong>Screw Drive</strong></span>
+			<p></p><p>Screw Drive with planetary gearheads for linear motion. 
+With integrated axial bearing for high axial loads: metric spindles, 
+ball screws and trapezoidal screws are available.</p><p>&nbsp;</p><p>For product details &amp; specifications:</p><p></p>
+			<a class="button button--prio-a" href="https://www.maxongroup.com/maxon/view/category/gear?etcc_cu=onsite&amp;etcc_med_onsite=Product&amp;etcc_cmp_onsite=Screw+Drive&amp;etcc_plc=Overview-Page-Gears&amp;etcc_var=%5bcom%5d%23en%23_d_&amp;target=filter&amp;filterCategory=spindle">Online Shop</a>
+			</div>
+		<div class="image-block">
+				<img src="Gearheads%20-%20Maxon_files/GP16S.jpg" title="" alt="">
+			</div>
+		</div>
+	</div>
+			<div class="cols col1of4 hideOnPrint">
+					</div>
+			</div>
+	</div>
+	</div>
+		</div>
+		<div id="foot">
+			<div id="naviMap">
+		<div class="naviMapList">
+	<div class="iNaviMapList">
+		<h2>Product Overview</h2>
+			<ul>
+                                <li><a href="https://www.maxongroup.com/maxon/view/content/product-overview" class="" target="_self">Overview</a>
+	</li>
+                                    <li><a href="https://www.maxongroup.com/maxon/view/content/systems" class="" target="_self">Mechatronic drive systems</a>
+	</li>
+                                    <li><a href="https://www.maxongroup.com/maxon/view/content/Overview-brushed-DC-motors" class="" target="_self">Brushed DC motors</a>
+	</li>
+                                    <li><a href="https://www.maxongroup.com/maxon/view/content/Overview-brushless-DC-motors" class="" target="_self">Brushless DC motors</a>
+	</li>
+                                    <li><a href="https://www.maxongroup.com/maxon/view/content/Overview-gears" class="" target="_self">Gear</a>
+	</li>
+                                    <li><a href="https://www.maxongroup.com/maxon/view/content/Overview-sensors" class="" target="_self">Sensors</a>
+	</li>
+                                    <li><a href="https://www.maxongroup.com/maxon/view/content/Overview-controls" class="" target="_self">Control electronics</a>
+	</li>
+                                    </ul>
+                        </div>
+</div><div class="naviMapList">
+	<div class="iNaviMapList">
+		<h2>maxon</h2>
+			<ul>
+                                <li><a href="https://www.maxongroup.com/maxon/view/content/company" class="" target="_self">About maxon</a>
+	</li>
+                                    <li><a href="https://www.maxongroup.com/maxon/view/content/research-development" class="" target="_self">Research &amp; Development</a>
+	</li>
+                                    <li><a href="https://www.maxongroup.com/maxon/view/content/quality" class="" target="_self">Quality</a>
+	</li>
+                                    <li><a href="https://www.maxongroup.com/maxon/view/content/news_overview" class="" target="_self">News</a>
+	</li>
+                                    <li><a href="https://drive.tech/en/" class="" target="_blank">Company Blog</a>
+	</li>
+                                    <li><a href="https://www.maxonbikedrive.com/" class="" target="_blank">maxon BIKEDRIVE</a>
+	</li>
+                                    </ul>
+                        </div>
+</div><div class="naviMapList">
+	<div class="iNaviMapList">
+		<h2>Contact &amp; Support</h2>
+			<ul>
+				<li>maxon motor ag</li><li>Switzerland</li><li><a style="background:none" href="tel:+41 (41) 666 15 00">+41 (41) 666 15 00</a></li></ul>
+
+		<ul>
+                                <li><a href="https://www.maxongroup.com/maxon/view/content/contact" class="" target="_self">Contact</a>
+	</li>
+                                    <li><a href="http://support.maxongroup.com/" class="" target="_blank">Support Center</a>
+	</li>
+                                    </ul>
+                        </div>
+</div><div class="naviMapList">
+	<div class="iNaviMapList">
+		<h2>Social Media</h2>
+			<ul>
+                            <li class="social easyClear">
+                                <span></span>
+                                <a href="https://twitter.com/maxonglobal" target="_self"><img src="Gearheads%20-%20Maxon_files/twitter.svg" alt=""></a>
+                                <a href="https://www.youtube.com/maxonglobal" target="_blank"><img src="Gearheads%20-%20Maxon_files/youtube.svg" alt="YouTube"></a>
+                                <a href="https://www.linkedin.com/company/maxon" target="_self"><img src="Gearheads%20-%20Maxon_files/icon-linkedin.svg" alt="LinkedIn"></a>
+                                </li>
+                            </ul>
+                        <ul>
+                                <li><a href="https://www.maxongroup.com/maxon/view/content/newsletter" class="" target="_self">Newsletter</a>
+	</li>
+                                    </ul>
+                        </div>
+</div></div>
+<div id="naviFooter">
+    <div id="iNaviFooter" class="easyClear">
+        <ul class="easyClear">
+                <li><a href="https://www.maxongroup.com/maxon/view/content/sitemap" class="" target="_self">Sitemap</a>
+	</li>
+                <li><a href="https://www.maxongroup.com/maxon/view/content/privacy" class="" target="_self">Privacy</a>
+	</li>
+                <li><a href="https://www.maxongroup.com/maxon/view/content/AGB-Board" class="" target="_self">Terms and conditions</a>
+	</li>
+                <li><a href="https://www.maxongroup.com/maxon/view/content/Imprint" class="" target="_self">Imprint</a>
+	</li>
+                <li><a href="https://www.maxongroup.com/maxon/view/content/legal-notice" class="" target="_self">Legal Information</a>
+	</li>
+                </ul>
+        <p class="copyright">Copyright 2021 maxon. All rights reserved.</p>
+		</div>
+</div>
+</div>
+	<div class="nav-flyout-darken-bg"></div><div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay" style=""></div><div id="fancybox-wrap" class="fancybox-ie"><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div><script>mendeleyWebImporter = { open: function () { window.postMessage('0.2876719641831008', 'https://www.maxongroup.com') } }</script></body></html>
