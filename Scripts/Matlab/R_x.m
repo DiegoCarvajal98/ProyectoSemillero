@@ -2,6 +2,6 @@
 
 function R = R_x(gamma)
     R = [1 0 0 ;
-    0 cosd(gamma) -sind(gamma);
-    0 sind(gamma) cosd(gamma)];
+    0 cos(gamma) -sin(gamma);
+    0 sin(gamma) cos(gamma)];
 end

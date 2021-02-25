@@ -1,0 +1,233 @@
+Propiedades de masa de Link1
+     Configuración:  Default
+     Sistema de coordenadas:  S1
+
+Masa = 5.822086 kilogramos
+
+Volumen = 0.0012898 metros cúbicos
+
+Área de superficie = 0.3177596 metros cuadrados
+
+Centro de masa: ( metros )
+	X = 8.5e-06
+	Y = -0.0018489
+	Z = 0.0245533
+
+Ejes principales de inercia y momentos principales de inercia: ( kilogramos * metros cuadrados )
+Medido desde el centro de masa.
+	 Ix = (-0.0002041,  0.027668,  0.9996171)   	Px = 0.0092366
+	 Iy = (-0.0006068, -0.999617,  0.0276678)   	Py = 0.0167373
+	 Iz = ( 0.9999998, -0.000601,  0.0002208)   	Pz = 0.0174351
+
+Momentos de inercia: ( kilogramos * metros cuadrados )
+Obtenidos en el centro de masa y alineados con el sistema de coordenadas de resultados.
+	Lxx = 0.0174351	Lxy = 4e-07	Lxz = -1.7e-06
+	Lyx = 4e-07	Lyy = 0.0167316	Lyz = 0.0002075
+	Lzx = -1.7e-06	Lzy = 0.0002075	Lzz = 0.0092423
+
+Momentos de inercia: ( kilogramos * metros cuadrados)
+Medido desde el sistema de coordenadas de salida.
+	Ixx = 0.0209649	Ixy = 3e-07	Ixz = -5e-07
+	Iyx = 3e-07	Iyy = 0.0202415	Iyz = -5.69e-05
+	Izx = -5e-07	Izy = -5.69e-05	Izz = 0.0092623
+
+Uno o más componentes han reemplazado las propiedades de masa:
+	BrushlessMotor
+	PLFE090 Gearbox<Default>
+________________________________________________________________________________________________________
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+________________________________________________________________________________________________________
+
+Propiedades de masa de Link2
+     Configuración:  Default
+     Sistema de coordenadas:  S2
+
+Masa = 7.51e+03 gramos
+
+Volumen = 1.92e+06 milímetros cúbicos
+
+Área de superficie = 5.68e+05  milímetros cuadrados
+
+Centro de masa: ( milímetros )
+	X = -88.6
+	Y = 0.01
+	Z = 149
+
+Ejes principales de inercia y momentos principales de inercia: ( gramos *  milímetros cuadrados )
+Medido desde el centro de masa.
+	 Ix = ( 1,  0, -0.03)   	Px = 1.87e+07
+	 Iy = (-0.03,  0, -1)   	Py = 2.58e+08
+	 Iz = ( 0,  1,  0)   	Pz = 2.67e+08
+
+Momentos de inercia: ( gramos *  milímetros cuadrados )
+Obtenidos en el centro de masa y alineados con el sistema de coordenadas de resultados.
+	Lxx = 1.9e+07	Lxy = 4.65e+03	Lxz = -7.68e+06
+	Lyx = 4.65e+03	Lyy = 2.67e+08	Lyz = 1.46e+03
+	Lzx = -7.68e+06	Lzy = 1.46e+03	Lzz = 2.58e+08
+
+Momentos de inercia: ( gramos *  milímetros cuadrados)
+Medido desde el sistema de coordenadas de salida.
+	Ixx = 1.86e+08	Ixy = 312	Ixz = -1.07e+08
+	Iyx = 312	Iyy = 4.92e+08	Iyz = 8.75e+03
+	Izx = -1.07e+08	Izy = 8.75e+03	Izz = 3.17e+08
+
+Uno o más componentes han reemplazado las propiedades de masa:
+	BrushlessMotor
+	PLFE090 Gearbox<Default>
+
+_____________________________________________________________________________________________________
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+_____________________________________________________________________________________________________
+
+Propiedades de masa de Link3
+     Configuración:  Default
+     Sistema de coordenadas:  S3
+
+Masa = 1.86e+03 gramos
+
+Volumen = 6.55e+05 milímetros cúbicos
+
+Área de superficie = 1.86e+05  milímetros cuadrados
+
+Centro de masa: ( milímetros )
+	X = 0
+	Y = -5.16
+	Z = 106
+
+Ejes principales de inercia y momentos principales de inercia: ( gramos *  milímetros cuadrados )
+Medido desde el centro de masa.
+	 Ix = ( 0,  0.14,  0.99)   	Px = 1.48e+06
+	 Iy = ( 0,  0.99, -0.14)   	Py = 8.63e+06
+	 Iz = (-1,  0,  0)   	Pz = 8.93e+06
+
+Momentos de inercia: ( gramos *  milímetros cuadrados )
+Obtenidos en el centro de masa y alineados con el sistema de coordenadas de resultados.
+	Lxx = 8.93e+06	Lxy = -17.3	Lxz = 118
+	Lyx = -17.3	Lyy = 8.48e+06	Lyz = 1.01e+06
+	Lzx = 118	Lzy = 1.01e+06	Lzz = 1.62e+06
+
+Momentos de inercia: ( gramos *  milímetros cuadrados)
+Medido desde el sistema de coordenadas de salida.
+	Ixx = 2.97e+07	Ixy = -0.06	Ixz = -234
+	Iyx = -0.06	Iyy = 2.92e+07	Iyz = -0.53
+	Izx = -234	Izy = -0.53	Izz = 1.67e+06
+
+Uno o más componentes han reemplazado las propiedades de masa:
+	Aerodrive4250(2)
+
+__________________________________________________________________________________________________________
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+__________________________________________________________________________________________________________
+
+Propiedades de masa de Link4
+     Configuración:  Default
+     Sistema de coordenadas:  S4
+
+Masa = 1.6563 kilogramos
+
+Volumen = 0.00059 metros cúbicos
+
+Área de superficie = 0.17328 metros cuadrados
+
+Centro de masa: ( metros )
+	X = 0
+	Y = 0.00298
+	Z = -0.03477
+
+Ejes principales de inercia y momentos principales de inercia: ( kilogramos * metros cuadrados )
+Medido desde el centro de masa.
+	 Ix = (-6e-05,  0.06676,  0.99777)   	Px = 0.00116
+	 Iy = (-2e-05, -0.99777,  0.06676)   	Py = 0.0044
+	 Iz = ( 1, -1e-05,  6e-05)   	Pz = 0.00459
+
+Momentos de inercia: ( kilogramos * metros cuadrados )
+Obtenidos en el centro de masa y alineados con el sistema de coordenadas de resultados.
+	Lxx = 0.00459	Lxy = 0	Lxz = 0
+	Lyx = 0	Lyy = 0.00438	Lyz = 0.00022
+	Lzx = 0	Lzy = 0.00022	Lzz = 0.00118
+
+Momentos de inercia: ( kilogramos * metros cuadrados)
+Medido desde el sistema de coordenadas de salida.
+	Ixx = 0.00661	Ixy = 0	Ixz = 0
+	Iyx = 0	Iyy = 0.00638	Iyz = 4e-05
+	Izx = 0	Izy = 4e-05	Izz = 0.00119
+
+Uno o más componentes han reemplazado las propiedades de masa:
+	Aerodrive4250(2)
+
+_________________________________________________________________________________________________
+/////////////////////////////////////////////////////////////////////////////////////////////////
+_________________________________________________________________________________________________
+
+Propiedades de masa de Link5
+     Configuración:  Default
+     Sistema de coordenadas:  S5
+
+Masa = 2.662 kilogramos
+
+Volumen = 0.00097 metros cúbicos
+
+Área de superficie = 0.28671 metros cuadrados
+
+Centro de masa: ( metros )
+	X = -0.0021
+	Y = -0.00105
+	Z = 0.1326
+
+Ejes principales de inercia y momentos principales de inercia: ( kilogramos * metros cuadrados )
+Medido desde el centro de masa.
+	 Ix = (-0.04037,  0.02514,  0.99887)   	Px = 0.00295
+	 Iy = ( 0.00939,  0.99965, -0.02478)   	Py = 0.01678
+	 Iz = (-0.99914,  0.00838, -0.0406)   	Pz = 0.01734
+
+Momentos de inercia: ( kilogramos * metros cuadrados )
+Obtenidos en el centro de masa y alineados con el sistema de coordenadas de resultados.
+	Lxx = 0.01732	Lxy = -1e-05	Lxz = -0.00058
+	Lyx = -1e-05	Lyy = 0.01677	Lyz = 0.00035
+	Lzx = -0.00058	Lzy = 0.00035	Lzz = 0.00298
+
+Momentos de inercia: ( kilogramos * metros cuadrados)
+Medido desde el sistema de coordenadas de salida.
+	Ixx = 0.06412	Ixy = 0	Ixz = -0.00132
+	Iyx = 0	Iyy = 0.06359	Iyz = -2e-05
+	Izx = -0.00132	Izy = -2e-05	Izz = 0.00299
+
+Uno o más componentes han reemplazado las propiedades de masa:
+	Aerodrive4250(2)
+
+___________________________________________________________________________________________________
+///////////////////////////////////////////////////////////////////////////////////////////////////
+___________________________________________________________________________________________________
+
+Propiedades de masa de Link6
+     Configuración:  Default
+     Sistema de coordenadas:  S6
+
+Masa = 0.06093 kilogramos
+
+Volumen = 2e-05 metros cúbicos
+
+Área de superficie = 0.01198 metros cuadrados
+
+Centro de masa: ( metros )
+	X = 0
+	Y = 0
+	Z = -0.0114
+
+Ejes principales de inercia y momentos principales de inercia: ( kilogramos * metros cuadrados )
+Medido desde el centro de masa.
+	 Ix = ( 0, -1,  0)   	Px = 1e-05
+	 Iy = ( 1,  0,  0)   	Py = 1e-05
+	 Iz = ( 0,  0,  1)   	Pz = 1e-05
+
+Momentos de inercia: ( kilogramos * metros cuadrados )
+Obtenidos en el centro de masa y alineados con el sistema de coordenadas de resultados.
+	Lxx = 1e-05	Lxy = 0	Lxz = 0
+	Lyx = 0	Lyy = 1e-05	Lyz = 0
+	Lzx = 0	Lzy = 0	Lzz = 1e-05
+
+Momentos de inercia: ( kilogramos * metros cuadrados)
+Medido desde el sistema de coordenadas de salida.
+	Ixx = 2e-05	Ixy = 0	Ixz = 0
+	Iyx = 0	Iyy = 2e-05	Iyz = 0
+	Izx = 0	Izy = 0	Izz = 1e-05
